@@ -1,25 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1158px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+
 }
 
 ul {
   list-style: none;
 }
 /*** ----------------------------HEADER----------------------------- ***/
+.container-header{
+display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  
+}
+
 .header {
    background: var(--WHITE, #fff);
+padding: 24px 0;
+   }
   
-  }
-  .navigation{
+   .navigation{
     
   }
   
   .navigation-post{
     display: inline-flex;
-      align-items: flex-start;
       gap: 40px;
+      padding-left: 347px;
+      padding-right: 811px;
   }
 
 .logo-web {
@@ -32,7 +52,7 @@ color: var(--IRIS, #4D5AE5);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: flex;
+   
 }
 
 .logo-studio {
@@ -59,6 +79,8 @@ color: var(--NAVY-BLUE, #2E2F42);
   line-height: 1.5;
   letter-spacing: 0.02em;
 text-decoration: none;
+gap: 40px;
+
 }
 
 .navigation-item:focus,
@@ -68,9 +90,12 @@ text-decoration: none;
 
 .addres-nav-link{
   font-style: normal;
+  
 }
 
-.addres-link{}
+.addres-link{
+  display: inline-flex;
+}
 
 .nav-link {
   color: var(--SLATE, #434455);
@@ -79,11 +104,15 @@ text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
 text-decoration: none;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .nav-link:focus,
 .nav-link:hover {
   color: #404bbf;
 }
+
+/** -------------------MAIN------------------ **/
 .hero {
   background-color: #2e2f42;
 }
