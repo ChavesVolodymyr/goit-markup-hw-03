@@ -214,6 +214,10 @@ max-width: 496px;
   
 }
 
+.section-text{
+  padding: 120px 0;
+}
+
 .titel-cont-wrap{
   display: flex;
   align-items: center;
@@ -251,7 +255,7 @@ flex-direction: column;
 /*?& ----------TEAM----------&? */
 .team {
   background: var(--CLOUD, #f4f4fd);
-  
+  padding: 120px 0;
 }
 .team-container{
 height: 732px;
@@ -313,6 +317,8 @@ margin-bottom: 8px;
 .portfolio {
   background: #fff;
   margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-titel{
@@ -377,7 +383,8 @@ margin-bottom: 8px;
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding: 100px 100px;
+  padding: 100px 0;
+
 }
 .footer-web {
   color: var(--IRIS, #4d5ae5);
@@ -389,12 +396,12 @@ margin-bottom: 8px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  display: flex;
+  display: inline-block;
     width: 44px;
     height: 21px;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
